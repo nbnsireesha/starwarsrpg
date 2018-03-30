@@ -1,0 +1,60 @@
+body{
+	background-image: url("../images/background1.jpg");
+	background-size: cover;
+	font-family: 'Fascinate Inline', cursive;
+	margin-top: 0px;
+}
+h2{
+	color: white;
+}
+h1{
+	color:red;
+}
+#Attack{
+	margin-top: 28%;
+}
+#restart{
+	margin-top: 28%;
+}
+#messages2,#messages{
+	color:white;
+	font-family: 'Fascinate Inline', cursive;
+	font-family: 'Exo 2', sans-serif;
+	line-height: 25px;
+	letter-spacing:3px;
+	font-size: 114%;
+}
+.mess{
+	margin-left: 22%;
+}
+.character{
+	width: 16%;
+    height: 25%;
+    background-color: #dff0d8;
+    border: 2px solid green;
+}
+img{
+	width: 150px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.top{
+	display: table-caption;
+	text-align: center;
+	caption-side: top;
+}
+figure{
+	display: table;
+}
+.bot{
+	display: table-caption;
+	caption-side: bottom;
+	text-align: center;
+	
+}
+button{
+	margin-top: 15px;
+	margin-left: 20px;
+}

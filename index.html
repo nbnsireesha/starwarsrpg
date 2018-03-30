@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star war Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Exo+2|Fascinate+Inline" rel="stylesheet">
+  	<script
+	  src="https://code.jquery.com/jquery-3.2.1.slim.js"
+	  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
+	  crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<div class="container-fluid">
+		<header class="text-right">
+			<h1>Star Wars RPG!</h1>
+		</header>
+		<div class="row">
+			<div class="col-md-10">
+				<div class="row">
+					<div id="available">
+							<h2>Choose Your <span id="chooseText">Character</span></h2>
+						
+						<div class="character col-md-3 " id="Chewbacca">
+
+							<figure class="figure">
+								<div class = "charpic">
+									<img src="assets/images/Chewbacca.jpg" id="i1"  alt="Chewbacca">
+								</div>
+								<figcaption class="figure-caption caption top">Chewbacca </figcaption>
+								<figcaption class="figure-caption CharHp caption bot Chewbacca_Hp ">120</figcaption>
+							</figure>
+						
+						</div>
+						<div class=" character col-md-3" id="yoda" >
+							
+							<figure>
+								<div class = "charpic">
+									<img src="assets/images/yoda.jpg"  id="i2"  alt="yoda">
+								</div>
+								
+								<figcaption class="caption top">yoda</figcaption>
+								<figcaption class="caption CharHp bot yoda_Hp">180</figcaption>
+							</figure>
+							
+						</div>
+						<div class=" character col-md-3 " id="LukeSkywalker">
+							
+							<figure>
+								<div class = "charpic">
+									<img src="assets/images/luke_skywalker.jpg" id="i3"  alt="Luke Skywalker">
+								</div>
+								
+								<figcaption class="caption top">Luke Skywalker</figcaption>
+								<figcaption class="caption CharHp bot LukeHp ">100</figcaption>
+							</figure>
+							
+						</div>
+						<div class="character col-md-3 " id="darthvader">
+							<figure>
+								<div class = "charpic">
+									<img src="assets/images/darthvader.jpg" id="i4"  alt="darthvader">
+								</div>
+								
+								<figcaption class="caption top">Darth Vader</figcaption>
+								<figcaption class="caption CharHp bot darthvader_Hp">150</figcaption>
+							</figure>
+						</div>
+						
+					</div><!--end of available div -->
+					
+				</div><!--end of the row -->
+				
+					
+			</div><!--end of the column -->
+				
+		</div><!--end of the row -->
+
+
+		<div class="row ">
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-4" id="yourChar">
+						<h2>Your Character</h2>
+					</div>
+					<div class="col-md-4 ">
+
+						<button class="btn btn-primary" id="Attack">Attack</button>
+						<button id="restart" class="btn btn-primary">Re-start</button>
+						
+					</div>
+					<div class="col-md-4" id="Defender" >
+						<h2>Defender</h2>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+		</div>
+		<div class="row mess">
+			
+			<div id="messages">
+				
+			</div>
+			<div id="messages2">
+				
+			</div>
+		</div>
+		<!-- defender div -->
+		<!-- <div class="row" id="Defender" >
+			<h2>Defender</h2>
+			
+			
+		</div> -->
+		
+			
+	</div><!--end of the container -->
+		
+		
+	
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
